@@ -1,3 +1,4 @@
+
 public class laba8st {
     private String stroka1;
     private String stroka2;

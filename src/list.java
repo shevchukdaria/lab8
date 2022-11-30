@@ -1,3 +1,4 @@
+
 import java.beans.XMLEncoder;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,7 +9,7 @@ import java.util.*;
 public class list {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String> laba8 = new ArrayList<String>();
-        laba8.add(0,"laba8");
+
 
         int choice;
 
@@ -20,10 +21,10 @@ public class list {
         System.out.println("3 Поиск одинаковых элементов");
         System.out.println("4 Реверс всех строк");
         System.out.println("5 Статистика по символам");
-        System.out.println("6 Поиск подстроки  в строках");
+        System.out.println("6 Поиск подстроки в строках");
         System.out.println("7 Считать текстовый файл");
         System.out.println("8 Длины строк");
-        System.out.println("9` Выгрузка в xml`");
+        System.out.println("9 Выгрузка в xml");
 
         do {
             System.out.println("Введите ваш выбор");
@@ -91,7 +92,7 @@ public class list {
                     break;
 
                 case 7:
-                    Scanner s =new Scanner(new File("C:\\Users\\Luban\\Desktop\\text.txt"));
+                    Scanner s =new Scanner(new File("C:\\Users\\Asus\\IdeaProjects\\laba8\\text.txt"));
                     String bla=s.nextLine();
                     laba8.add(bla);
                     System.out.println(laba8);
