@@ -92,7 +92,7 @@ public class list {
                     break;
 
                 case 7:
-                    Scanner s =new Scanner(new File("C:\\Users\\Asus\\IdeaProjects\\laba8\\text.txt"));
+                    Scanner s =new Scanner(new File("C:\\Users\\dasha\\8lab\\text.txt"));
                     String bla=s.nextLine();
                     laba8.add(bla);
                     System.out.println(laba8);
@@ -125,3 +125,4 @@ public class list {
         }while (choice!=15);
     }
 }
+//hi
